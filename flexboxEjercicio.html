@@ -17,7 +17,8 @@
         #contenedor1 {
             display: flex;
             flex-direction: row;
-            justify-items: flex-start;
+            
+            justify-content: space-between;
             
             
             
@@ -37,9 +38,8 @@
         #contenedor3 {
             display: flex;
             flex-direction: row;
-           
-            height: 27vh;
-            width: 90vh;
+           justify-content: center;
+        
             
         }
 
@@ -47,6 +47,7 @@
             width: 200px;
             height: 150px;
             background-color: red;
+            order: 1;
            
 
         }
@@ -64,6 +65,7 @@
             width: 200px;
             height: 150px;
             background-color: blue;
+            flex-grow: 1;
             
 
 
@@ -79,6 +81,16 @@
             width: 200px;
             height: 150px;
             background-color: violet;
+            
+            
+        }
+        .caja6 {
+            width: 200px;
+            height: 150px;
+            background-color:black;
+            flex-grow: 1;
+            margin-right: 10vh;
+           
         }
 
         h1 {
@@ -92,7 +104,7 @@
     <h1>CAJAS - PASO 1</h1>
     <div id="container">
     <div id="contenedor1">
-        
+        <div class="caja6"></div>
 
         
         <div class="caja3">
