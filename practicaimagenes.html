@@ -32,7 +32,15 @@
                 max-width: 800px;
                 max-height: 1200px;
             }
+           
         }
+        @media screen and (orientation:landscape) {
+            #portaF{
+                max-width:1980px ;
+                max-height: 1080px;
+            }
+                
+            }
     </style>
     </head>
 
@@ -40,6 +48,9 @@
         background="https://cdn.pixabay.com/photo/2017/03/17/18/03/bokeh-2152298_1280.jpg">
 
 <picture id="portaF">
+    <source media="(orientation:landscape) and (min-width:1900px)" srcset="./agua1920x1080.jpg" type="image/jpg">
+<source media="(orientation:portrait) and (min-width:1081px)" srcset="./agua1080x1920.jpg" type="image/jpg">
+<source media="(orientation:portrait) and (min-width:415px)" srcset="./agua414.jpg" type="image/jpg">
 
         <img id="foto" src="C:\Users\mario\Documents\GitHub\Lenguaje_marcas_mpq\agua.jpg" alt="Imagen de agua de mar">
 
