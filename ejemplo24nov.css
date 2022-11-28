@@ -1,0 +1,50 @@
+img {
+    height: auto;
+    width: 20%;
+    min-width: 150px;
+}
+main{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 30%;
+}
+#p1:target{
+    background-color: yellow;
+}
+#fotosuperior{
+width: 50%;
+float: right;
+}
+#psup{
+    padding: 20px;
+}
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+#cajafoto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+p {
+    column-count: 3;
+}
+
+#p1 {
+    color: blue;
+}
+
+#p2 {
+    color: red;
+
+}
+
+#p3 {
+    color: green;
+}
