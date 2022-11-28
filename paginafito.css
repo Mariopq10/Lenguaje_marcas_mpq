@@ -2,28 +2,36 @@ body {
     background-color: gray;
 }
 
-div::first-letter { /* pseudoelemento */
-    font-size: xx-large;
-    font-weight: bold;
+p:active {
+    font-size: 120%;
+}
+
+div:hover:active {
+    color: yellow;
+}
+
+/*body>p:first-child:active+#nombre {
+    visibility: visible;
+}*/
+
+body>p target {
+    visibility: visible;
+    text-align: center;
     font-style: italic;
+    text-decoration: underline;
 }
 
-
-
-div:nth-child(odd) { /* pseudoclase */
-    background-color: lightgrey;
-}
-div:nth-child(even) {
-    background-color: white;
+body>p:nth-child(2) {
+    visibility: hidden;
+    /*text-align: center;
+    font-style: italic;
+    text-decoration: underline;*/
 }
 
-p:last-of-type::after { /* pseudoclase y pseudoelemento */
-    content: "...";
+div::first-letter {
+    font-size: xx-large;
 }
 
-p:only-child::after { /* evita que lleven puntos suspensivos los párrafos aislados */
-    content:none;
-}
 
 p {
     line-height: 12px;
@@ -60,8 +68,4 @@ div {
 
 #ocultar {
     display: none;
-}
-p:nth-child(1) { /* pseudoclase */
-    color: red;
-    background-color:yellow;
 }
