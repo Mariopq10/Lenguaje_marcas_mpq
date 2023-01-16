@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Users/PROFESOR/Documents/CarlosBoni/LenguajeMarcas/soldadito.xsd">
+<?xml-stylesheet type="text/xsl" href="soldadito.xsl"?>
+<cancion>
 	<titulo>Soldadito Marinero</titulo>
 	<autor>Fito y los Fitipaldis</autor>
 	<letras>
