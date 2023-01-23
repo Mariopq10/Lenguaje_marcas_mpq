@@ -4,11 +4,19 @@
 		<html>
 			<head></head>
 			<body>
-				<h1>Informacion de la cancion</h1>
+				<h1>Cancion</h1>
 				<h2>
 					<xsl:value-of select="cancion/titulo"/></h2>
-				
-			</body>
+				<br></br>
+				<xsl:for-each select="cancion/letra/estrofa">
+					<xsl:if select="tipo='normal'">
+						<p>Estribillo</p>
+				</xsl:if>
+			<xsl:for-each select="verso">
+			</xsl:for-each>
+			
+			</xsl:for-each>
+		</body>
 		</html>
 	</xsl:template>
 </xsl:stylesheet>
