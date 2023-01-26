@@ -21,16 +21,11 @@
     <xs:element name="estrofa">
         <xs:complexType>
             <xs:sequence>
+                <xs:element minOccurs="0" ref="tipo"/>
                 <xs:element maxOccurs="unbounded" ref="verso"/>
             </xs:sequence>
-            <xs:attribute name="tipo" use="required" type="estri"/>
         </xs:complexType>
     </xs:element>
-    <xs:simpleType name="estri">
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="normal" />
-        <xs:enumeration value="estribillo" />
-      </xs:restriction>
-    </xs:simpleType>
+    <xs:element name="tipo" type="xs:NCName"/>
     <xs:element name="verso" type="xs:string"/>
 </xs:schema>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="soldadito.xsl"?>
-<cancion>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/carpetita/soldadito.xsd">
 	<titulo>Soldadito Marinero</titulo>
 	<autor>Fito y los Fitipaldis</autor>
 	<letras>
@@ -22,19 +22,14 @@
 			<tipo>normal</tipo>
 			<verso>Él quería cruzar los mares y olvidar a su sirena</verso>
 			<verso>La verdad, no fue difícil cuando conoció a Mariela</verso>
-			<verso></verso>
-			<verso></verso>			
+			<verso>hola</verso>
+			<verso>pepe</verso>			
 		</estrofa>
 		<estrofa>
 			<verso></verso>
 			<verso></verso>
 			<verso></verso>
 			<verso></verso>			
-		</estrofa>
-		<estrofa>
-			<verso></verso>
-			<verso></verso>
-			<verso></verso>		
 		</estrofa>
 	</letras>
 </cancion>

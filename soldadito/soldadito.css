@@ -1,0 +1,13 @@
+body {
+    counter-reset: section;
+    background-color: wheat;
+}
+
+h2::before{
+    counter-increment: section;
+    counter:"" counter(section);
+}
+p::before{
+    counter-increment: section;
+    content: "Verso-" counter(section) ": ";
+}
