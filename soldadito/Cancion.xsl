@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
-		<html>
+			<html>
 			<head>
-				<link rel="stylesheet" type="text/css" href="Cancion.css" />
+				<link rel="stylesheet" type="text/css" href="cancion.css" />
 			</head>
 			<body>
-				<h1> <xsl:value-of select="Cancion/titulo"></xsl:value-of></h1>
-				<h2>
-					<xsl:value-of select="Cancion/artista"></xsl:value-of>
-				</h2>
+				<h1> <xsl:value-of select="cancion/titulo"></xsl:value-of></h1>
+				<h1>
+					<xsl:value-of select="cancion/artista"></xsl:value-of>
+				</h1>
 
-				<xsl:for-each select="Cancion/estrofa">
-					<h3>Estrofa</h3>
+				<xsl:for-each select="cancion/estrofa">
+					<h2>Estrofa</h2>
 						<xsl:for-each select="verso">
 						<span STYLE="font-style:italic">
 						<p>
@@ -23,5 +23,6 @@
 				</xsl:for-each>
 			</body>
 		</html>
+		
 	</xsl:template>
 </xsl:stylesheet>

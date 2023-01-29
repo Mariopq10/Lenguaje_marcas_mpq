@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="Cancion.xsl"?>
-<Cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Cancion.xsd">
+<?xml-stylesheet type="text/xsl" href="cancion.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/xampp/htdocs/soldadito/cancion.xsd">
 	<titulo>Stand by me</titulo>
 	<artista>Ben E. King</artista>
 		<estrofa>
@@ -37,4 +37,4 @@
 			<verso>Oh, stand</verso>
 			<verso>Stand by me, stand by me</verso>	
 		</estrofa>
-</Cancion>
+</cancion>

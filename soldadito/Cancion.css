@@ -4,17 +4,20 @@
 body {
     counter-reset: section estrofa;
     background-color: wheat;
-    
-
   }
-  
-  h3::before {
+  span{
+    color: aliceblue;
+    background-color: yellow;
+  }
+  h2::before {
     counter-increment: estrofa;
     
     content: "" counter(estrofa) ": ";
 
   }
-
+p{
+    color:blue;
+}
   p::before {
     counter-increment: section; /* Increment the value of section counter by 1 */
   
