@@ -6,7 +6,6 @@ body {
     background-color: wheat;
   }
   span{
-    display:block;
     color: aliceblue;
     background-color: yellow;
   }
@@ -17,6 +16,7 @@ body {
 
   }
 p{
+  background-color: yellow;
     color:blue;
 }
   p::before {
