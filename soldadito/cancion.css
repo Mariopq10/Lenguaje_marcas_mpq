@@ -12,12 +12,10 @@ body {
   }
   h2::before {
     counter-increment: estrofa;
-    
     content: "" counter(estrofa) ": ";
-
   }
 p{
-  font-size: larger;
+  font-weight: bold;
   background-color: yellow;
     color:blue;
 }
