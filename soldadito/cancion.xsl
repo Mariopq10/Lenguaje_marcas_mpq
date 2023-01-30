@@ -14,7 +14,7 @@
 				<xsl:for-each select="cancion/estrofa">
 					<h2>Estrofa</h2>
 						<xsl:for-each select="verso">
-						<span STYLE="font-style:italic">
+						<span>
 						<p>
 						<xsl:value-of select="."/>
 						</p>
