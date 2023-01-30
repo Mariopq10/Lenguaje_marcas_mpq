@@ -6,7 +6,7 @@ body {
     background-color: wheat;
   }
   span{
-    display: inline-block;
+    display:block;
     color: aliceblue;
     background-color: yellow;
   }
