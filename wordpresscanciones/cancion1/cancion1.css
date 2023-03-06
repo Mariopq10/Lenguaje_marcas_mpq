@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+body {
+    counter-reset: section estrofa;
+    background-color: wheat;
+  }
+  span{
+    display: inherit;
+    color: aliceblue;
+    background-color: yellow;
+  }
+  h2::before {
+    counter-increment: estrofa;
+    content: "" counter(estrofa) ": ";
+  }
+p{
+  font-weight: bold;
+  background-color: yellow;
+    color:blue;
+}
+  p::before {
+    counter-increment: section; /* Increment the value of section counter by 1 */
+  
+    content: "Verso-" counter(section) ": "; /* Display counter value in default style (decimal) */
+  }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="cancion.xsl"?>
+<cancion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cancion.xsd">
+	<titulo>Stand by me</titulo>
+	<artista>Ben E. King</artista>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>When the night has come</verso>
+			<verso>And the land is dark</verso>
+			<verso>And the moon is the only light we'll see</verso>
+			<verso>No, I won't be afraid</verso>	
+			<verso>No, I won't be afraid</verso>
+			<verso>Just as long as you stand</verso>
+			<verso>Stand by me</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>So darlin', darlin', stand by me</verso>
+			<verso>Oh, stand by me</verso>
+			<verso>Oh, stand</verso>
+			<verso>Stand by me, stand by me</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>normal</tipo>
+			<verso>If the sky that we look upon</verso>
+			<verso>Should tumble and fall</verso>	
+			<verso>Or the mountains should crumble to the sea</verso>
+			<verso>I won't cry, I won't cry</verso>
+			<verso>No I won't shed a tear</verso>	
+			<verso>Just as long as you stand</verso>
+			<verso>Stand by me</verso>
+		</estrofa>
+		<estrofa>
+			<tipo>estribillo</tipo>
+			<verso>So darlin', darlin', stand by me</verso>
+			<verso>Oh, stand by me</verso>
+			<verso>Oh, stand</verso>
+			<verso>Stand by me, stand by me</verso>	
+		</estrofa>
+</cancion>
