@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--  Ejercicios de Ejemplo -->
+
+<head>
+    <title>Ejercicios Javascript</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background: rgba(0, 0, 128, 0.1)
+                /* Azul al 10% */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>VARIABLES LOCALES Y GLOBALES</h1>
+
+    <script>
+        // seccion de codigo javascript 
+const v1=parseInt(prompt("Ingrese primer valor"));
+const v2=parseInt(prompt("Ingrese segundo valor"));
+let contador = 0;
+
+for (let i = 0; i < v2; i++) {
+  const v1String = v1.toString();
+  document.write(v1);
+  contador += v1String.length;
+  if (contador >= 8) {
+    document.write("<br>");
+    charCount = 0;
+  }
+}
+if (contador > 0) {
+  document.write("<br>");
+}
+
+
+
+
+    </script>
+
+</body>
+<!--  fuente http://www.tutorialesprogramacionya.com/ -->
+
+</html>
