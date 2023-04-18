@@ -1,0 +1,53 @@
+#contenedor{
+    margin:2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+#fila1{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+#fila2{
+    display: flex;
+    justify-content: center;
+
+}
+#fila3{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+#id1{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+
+}
+#id2{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+
+}
+#id3{
+    background-color: black;
+    width: 150px;
+    height: 150px;
+
+}
+#id4{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+
+}
+#id5{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+}

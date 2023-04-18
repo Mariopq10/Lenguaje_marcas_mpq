@@ -27,10 +27,10 @@ for (let i = 0; i < v2; i++) {
   const v1String = v1.toString();
   document.write(v1);
   contador += v1String.length;
-  if (contador >= 8) {
-    document.write("<br>");
-    charCount = 0;
-  }
+  if(contador%8==0){
+    document.write("<br> ");
+   
+}
 }
 if (contador > 0) {
   document.write("<br>");

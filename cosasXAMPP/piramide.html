@@ -6,33 +6,59 @@
 <head>
     <title>Ejercicios Javascript</title>
     <meta charset="UTF-8">
-    <style>
-        body {
-            background: rgba(0, 0, 128, 0.1)
-                /* Azul al 10% */
-        }
-    </style>
+
 </head>
 
 <body>
-    <h1>VARIABLES LOCALES Y GLOBALES</h1>
+    <h1>PIRAMIDE</h1>
 
     <script>
         // seccion de codigo javascript 
-var ancho=5;
-for(i=0;i<3;i++){
-    for(j=0;j<20;j++){
-        document.write(" ")
-    }
-    for(k=0;k<ancho;k++){
-        document.write('o')
-    }
-    document.write("<br>");
-ancho--
-}
-
-
-    </script>
+        'use strict';
+    
+        var f, y;
+        var a, n = 3;
+    
+    
+        function imprimir() {
+    
+          for (f = 1; f <= 25; f++) {
+    
+            document.write("<br>");
+            for (y = 1; y <= 20; y++) {
+              document.write(" &nbsp;");
+            }
+    
+            if (f == 20) {
+    
+              for (let i = 1; i <= n; i++) {
+    
+                for (let j = 0; j <= n - i; j++) {
+                  document.write(' ');
+    
+    
+                }
+    
+                for (let k = 0; k < 2 * i - 1; k++) {
+                  document.write("*");
+    
+                }
+                document.write("<br>")
+                for (y = 1; y <= 20 - i; y++) {
+                  document.write(" &nbsp;");
+                }
+    
+              }
+    
+            }
+    
+          }
+        }
+    
+        imprimir();
+    
+      </script>
+    
 
 </body>
 <!--  fuente http://www.tutorialesprogramacionya.com/ -->
