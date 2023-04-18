@@ -26,28 +26,33 @@
     background-color: green;
     width: 150px;
     height: 150px;
+    text-align: center;
 
 }
 #id2{
     background-color: red;
     width: 150px;
     height: 150px;
+    text-align: center;
 
 }
 #id3{
     background-color: black;
     width: 150px;
     height: 150px;
+    text-align: center;
 
 }
 #id4{
     background-color: yellow;
     width: 150px;
     height: 150px;
+    text-align: center;
 
 }
 #id5{
     background-color: blue;
     width: 150px;
     height: 150px;
+    text-align: center;
 }
