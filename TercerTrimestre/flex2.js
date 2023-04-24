@@ -10,6 +10,7 @@ do{
 
 
 
+
 //Elegimos el cuadro donde se colocará "HOLA"
 var selector = "id"+cuadro;
 var piramide ="--o--<br/>-ooo-<br/>ooooo"
