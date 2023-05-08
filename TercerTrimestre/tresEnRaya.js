@@ -1,18 +1,12 @@
 
-<<<<<<< Updated upstream
-const CELDAS = Array.from(document.querySelectorAll('celda'));
-alert('Mario Pérez Quintero 1ºDAW , Tres en raya.')
-let jugadas = [];
-=======
 
 var jugadas = [];
 alert('Mario Pérez Quintero 1ºDAW, Tres en raya.')
->>>>>>> Stashed changes
 function elegir(id) {
     let cuadro = document.getElementById(id)
     cuadro.innerHTML = '0';
     jugadas.push(id);
-    if (jugadas[0].length === 3 || jugadas[0].length > 3) {
+    if (jugadas.length === 3 || jugadas.length > 3) {
         if (verificarJugadas()) {
             alert('¡Ganaste!');
             location.reload();
@@ -45,7 +39,7 @@ function verificarJugadas() {
     
 
     for (var i = 0; i <combinacionesGanadoras.length; i++) {
-        if (!combinacionesGanadoras[i]===(jugadas[i]) ) {
+        if (!combinacionesGanadoras[i].includes(jugadas[i]) ) {
           return false;
         }else {
             return true

@@ -1,7 +1,14 @@
 .tablero {
-    display: inline-block;
-    border: 2px solid black;
-    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .fila {
@@ -9,12 +16,15 @@
   }
   
   .casilla {
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
-    font-size: 2em;
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px;
+    border-style: solid;
+    font-size: 72px;
     text-align: center;
-    line-height: 50px;
+    line-height: 100px;
     cursor: pointer;
   }
   

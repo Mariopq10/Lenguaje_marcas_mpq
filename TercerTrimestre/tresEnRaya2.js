@@ -1,3 +1,4 @@
+alert('Mario Pérez Quintero 1ºDAW, Tres en raya.')
 const casillas = document.querySelectorAll('.casilla');
 const combinacionesGanadoras = [
   [0, 1, 2],
@@ -18,7 +19,7 @@ casillas.forEach(casilla => {
     if (!jugadas.includes(parseInt(casilla.id))) {
       casilla.classList.add(turno);
       jugadas.push(parseInt(casilla.id));
-      if (comprobarGanador(jugadas, combinacionesGanadoras)) {
+      if (comprobarGanador(jugadas, combinacionesGanadoras, turno)) {
         alert(`¡${turno} ha ganado!`);
         resetearTablero();
       } else if (jugadas.length === 9) {
@@ -31,9 +32,9 @@ casillas.forEach(casilla => {
   });
 });
 
-function comprobarGanador(jugadas, combinacionesGanadoras) {
+function comprobarGanador(jugadas, combinacionesGanadoras, turno) {
   for (let combinacion of combinacionesGanadoras) {
-    if (combinacion.every(num => jugadas.includes(num))) {
+    if (combinacion.every(num => jugadas.includes(num) && casillas[num].classList.contains(turno))) {
       return true;
     }
   }
