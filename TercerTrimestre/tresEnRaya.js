@@ -1,6 +1,6 @@
 
-const CELDAS = Array.from(document.querySelectorAll('.celda'));
-
+const CELDAS = Array.from(document.querySelectorAll('celda'));
+alert('Mario Pérez Quintero 1ºDAW , Tres en raya.')
 let jugadas = [];
 function elegir(id) {
     let cuadro = document.getElementById(id)
