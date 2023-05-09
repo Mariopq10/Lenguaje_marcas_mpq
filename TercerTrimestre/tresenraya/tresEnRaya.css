@@ -1,38 +1,37 @@
 .tablero {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .fila {
-    display: flex;
-  }
-  
-  .casilla {
-    background-color: grey;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    border: 2px;
-    border-style: solid;
-    font-size: 72px;
-    text-align: center;
-    line-height: 100px;
-    cursor: pointer;
-  }
-  
-  .casilla.cruz:before {
-    content: "X";
-  }
-  
-  .casilla.circulo:before {
-    content: "O";
-  }
-  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.fila {
+  display: flex;
+}
+
+.casilla {
+  background-color: grey;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px;
+  border-style: solid;
+  font-size: 72px;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+}
+
+.casilla.cruz:before {
+  content: "X";
+}
+
+.casilla.circulo:before {
+  content: "O";
+}

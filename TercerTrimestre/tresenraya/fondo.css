@@ -1,0 +1,16 @@
+body {
+    background-image: url('./fondo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+}
