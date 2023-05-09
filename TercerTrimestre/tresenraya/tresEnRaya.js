@@ -37,7 +37,6 @@ casillas.forEach(casilla => {
         }
     });
 });
-
 function comprobarGanador(jugadas, combinacionesGanadoras, turno) {
     for (let combinacion of combinacionesGanadoras) {
         if (combinacion.every(num => jugadas.includes(num) && casillas[num].classList.contains(turno))) {
@@ -46,7 +45,7 @@ function comprobarGanador(jugadas, combinacionesGanadoras, turno) {
     }
     return false;
 }
-
+//Funcion que resetea los valores del Array casillas, recorriendolo y eliminando los valores "cruz" y "circulo", al eliminar todo, turno pasa a ser "cruz" para iniciar una nueva partida.
 function resetearTablero() {
     jugadas = [];
     casillas.forEach(casilla => {
