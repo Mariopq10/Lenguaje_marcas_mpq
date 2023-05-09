@@ -53,3 +53,12 @@ function resetearTablero() {
     });
     turno = "cruz";
 }
+
+function hover(id) {
+    let cuadro = document.getElementById(id);
+    cuadro.style.backgroundColor = 'white';
+}
+function leave(id) {
+    let cuadro = document.getElementById(id);
+    cuadro.style.backgroundColor = 'gray';
+}
