@@ -1,0 +1,169 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
+    min-height: 100vh;
+    background-color: #000;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/421/270/395/video-game-escape-from-tarkov-escape-from-tarkov-wallpaper-f2d31e3292e52b05ca8d1f5607aa3aa1.jpg);
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    #imagen1 {
+        width: 150px;
+    }
+
+    #imagen2 {
+        width: 150px;
+    }
+    #logo {
+        width: 150px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    background: #403d34;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    transition: .5s ease-out all;
+    font-weight: 900;
+}
+
+h1 {
+    text-align: center;
+    color: #807155;
+}
+
+h2 {
+    text-align: center;
+    color: #807155;
+}
+
+p {
+    margin: 3px;
+    padding-left: 10px;
+}
+
+#tarkovimage {
+    display: flex;
+    justify-content: center;
+}
+
+.div1 {
+    display: flex;
+    margin: 10px;
+    min-width: 80%;
+}
+
+#imagen1 {
+    max-width: 270px;
+    max-height: 152px;
+    box-shadow: 0 0 10px #807155;
+    margin: auto;
+}
+#logo{
+    max-width: 220px;
+    box-shadow: 0 0 10px #807155;
+    margin: auto;
+    
+}
+
+
+
+
+#centro {
+
+    padding: 4px;
+    max-width: 1200px;
+    height: max-content;
+    box-shadow: 0 0 10px #000000;
+    margin: auto;
+    color: #adadaf;
+    background-color: rgba(0, 0, 0, 0.700);
+}
+
+#fotomapa {
+    width: 30%;
+}
+
+#mapa:hover {
+    background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/mapa.svg);
+    background-size: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-decoration: none;
+    color: transparent;
+}
+
+#info:hover {
+    background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/info.svg);
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+    color: transparent;
+
+}
+
+.expand {
+    transition: transform 0.65s;
+}
+
+.expand:hover {
+    transform: scale(1.5);
+}
+
+
+.contenedor {
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#portaFoto{
+    width: 98%;
+}
+
+#MarioBros{
+    width: 98%;
+
+}
+img{
+    max-width: 1200px;
+}
