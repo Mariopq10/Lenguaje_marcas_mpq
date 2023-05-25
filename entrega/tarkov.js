@@ -44,7 +44,7 @@ function aplicarCambios() {
     document.documentElement.style.fontSize = parseFloat(tamElegido) + 'rem';
     document.documentElement.style.setProperty('--colorNormal', color);
 
-    document.getElementById('mensaje').innerHTML = 'Este mensaje muestra el tipo de tamaño y color del texto';
+    document.getElementById('mensaje').innerHTML = 'Este mensaje muestra el tipo de tamaño y color del texto del contenido de section';
     console.log(color);
     console.log(tamElegido);
 }
