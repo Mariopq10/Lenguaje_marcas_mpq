@@ -255,25 +255,24 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 #ventana-ajustes {
-    padding:10px;
+    padding: 10px;
     width: 450px;
     height: fit-content;
     background: #ffffffcb;
 }
 
-:root {
+section {
     --colorNormal: #adadaf;
-    font-size:1rem;
-    
-    /* ventajas del REM vs PX: funciona con el zoom
-    el navegador usa REM por defecto en 14 o 16 px dependiendo... */
-    
+    font-size: 1rem;
+
+    /* Modifico solo el texto del section para no romper la estetica de la página, el usuario puede modificar el color y tamaño del texto dentro del contenido de lectura. */
+
 }
 
 section p {
-    color:var(--colorNormal);
+    color: var(--colorNormal);
 }
