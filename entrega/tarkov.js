@@ -33,5 +33,5 @@ function aplicarCambios() {
     // aplicamos el color y el tamaño a todo el documento
     document.documentElement.style.fontSize = parseFloat(tamelegido) + "rem";
     document.documentElement.style.setProperty("--colorNormal", color.value);
-    document.getElementById('mensaje').innerHTML = "APLICADO";
+    document.getElementById('mensaje').innerHTML = "Este ajuste solo sirve para el contenido de la página.";
 }
