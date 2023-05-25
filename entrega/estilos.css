@@ -123,6 +123,14 @@ p {
     text-decoration: none;
     color: transparent;
 }
+#cancion:hover{
+    background-image: url(https://raw.githubusercontent.com/Mariopq10/P-ginaWebmpq/main/info.svg);
+    background-size: 9%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
+    color: transparent;
+}
 
 .expand {
     transition: transform 0.65s;
