@@ -3,21 +3,16 @@
 }
 body {
     counter-reset: section estrofa;
-    background-color: wheat;
+    background-color: rgba(0, 0, 0, 0.587);
   }
-  span{
-    display: inherit;
-    color: aliceblue;
-    background-color: yellow;
-  }
+
   h2::before {
     counter-increment: estrofa;
     content: "" counter(estrofa) ": ";
   }
 p{
   font-weight: bold;
-  background-color: yellow;
-    color:blue;
+    color:#adadaf;
 }
   p::before {
     counter-increment: section; /* Increment the value of section counter by 1 */
