@@ -42,8 +42,9 @@ body {
 }
 
 .navbar {
-    max-width: 1200px;
-    width: 100%;
+    padding: 4px;
+    display: flex;
+
     margin: auto;
     background: #403d34;
 }
@@ -96,10 +97,6 @@ p {
     margin: auto;
     
 }
-
-
-
-
 #centro {
 
     padding: 4px;
@@ -131,7 +128,6 @@ p {
     background-position: center;
     text-decoration: none;
     color: transparent;
-
 }
 
 .expand {
@@ -174,7 +170,6 @@ img{
 	left: 0;
     right: 0;
     bottom: 0;
-
 	transition: all 500ms ease;
 	opacity: 0.2;
 	visibility: hidden;
@@ -220,9 +215,7 @@ img{
 	display: none;
 }
 .lbl-modal{
-	background: #8b9181;
-	padding: 10px 15px;
-	border-radius: 4px;
+
 	cursor: pointer;
     display:flex;
    
@@ -234,7 +227,20 @@ img{
     align-content: center;
     flex: auto;
 }
-.lbl-modal:hover{
-    color: transparent;
-    transition: all 500ms ease;
+#nombre-usuario {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    font-size: 12px;
+}
+.ajustes{
+    width: fit-content;
+	height: max-content;
+	top: 30%;
+    left: 35%;
+	background: #ffffffcb;
+	position: fixed;
+    
 }
