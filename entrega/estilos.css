@@ -26,6 +26,7 @@ body {
     #imagen2 {
         width: 150px;
     }
+
     #logo {
         width: 150px;
     }
@@ -59,15 +60,11 @@ body {
     font-weight: 900;
 }
 
-h1 {
+#titulo {
     text-align: center;
     color: #807155;
 }
 
-h2 {
-    text-align: center;
-    color: #807155;
-}
 
 p {
     margin: 3px;
@@ -91,12 +88,14 @@ p {
     box-shadow: 0 0 10px #807155;
     margin: auto;
 }
-#logo{
+
+#logo {
     max-width: 220px;
     box-shadow: 0 0 10px #807155;
     margin: auto;
-    
+
 }
+
 #centro {
 
     padding: 4px;
@@ -153,80 +152,93 @@ footer {
     bottom: 0;
     width: 100%;
 }
-#portaFoto{
+
+#portaFoto {
     width: 98%;
 }
 
-#MarioBros{
+#MarioBros {
     width: 98%;
 
 }
-img{
+
+img {
     max-width: 1200px;
 }
-.modal{
-	position:fixed;
-	top: 0;
-	left: 0;
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
-	transition: all 500ms ease;
-	opacity: 0.2;
-	visibility: hidden;
+    transition: all 500ms ease;
+    opacity: 0.2;
+    visibility: hidden;
 }
-#btn-modal:checked ~ .modal{
-	opacity: 1;
-	visibility: visible;
-} 
-.contenedor2{
-	width: 30%;
-	height: fit-content;
-	top: 38%;
+
+#btn-modal:checked~.modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor2 {
+    width: 30%;
+    height: fit-content;
+    top: 38%;
     left: 38%;
-	background: #ffffffcb;
-	box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
-	transition: all 100ms ease;
-	position: fixed;
-	transform: translateY(-50%);
+    background: #ffffffcb;
+    box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+    transition: all 100ms ease;
+    position: fixed;
+    transform: translateY(-50%);
 }
-#btn-modal:checked ~ .modal .contenedor{
-	transform: translateY(0%);
-} 
 
-.contenedor2 label{
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	color: #000000;
-	font-size: 15px;
-	cursor: pointer;
+#btn-modal:checked~.modal .contenedor {
+    transform: translateY(0%);
 }
-.contenido{
-	width: 100%;
-	padding: 10px; 
-}
-.contenido h3{
-	margin-bottom: 10px;
-}
-.contenido p{
-	margin-bottom: 7px;
-}
-#btn-modal{
-	display: none;
-}
-.lbl-modal{
 
-	cursor: pointer;
-    display:flex;
-   
-   
+.contenedor2 label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
 }
-.texto-modal{
+
+.contenido {
+    width: 100%;
+    padding: 10px;
+}
+
+.contenido h3 {
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    margin-bottom: 7px;
+}
+
+#btn-modal {
+    display: none;
+}
+
+.lbl-modal {
+
+    cursor: pointer;
+    display: flex;
+
+
+}
+
+.texto-modal {
     text-decoration: underline;
     text-align: center;
     align-content: center;
     flex: auto;
 }
+
 #nombre-usuario {
     position: fixed;
     bottom: 0;
@@ -235,17 +247,33 @@ img{
     background-color: #f2f2f2;
     font-size: 12px;
 }
-.ajustes{
+
+#ajustes {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
     display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-    width: fit-content;
-	height: max-content;
-	top: 30%;
-    left: 35%;
-	background: #ffffffcb;
-	position: fixed;
+    justify-content: center;
+    align-items: center;
     
+}
+
+#ventana-ajustes {
+    padding:10px;
+    width: 450px;
+    height: fit-content;
+    background: #ffffffcb;
+}
+
+:root {
+    --colorNormal:#807155;
+    font-size:1rem;
+    
+    /* ventajas del REM vs PX: funciona con el zoom
+    el navegador usa REM por defecto en 14 o 16 px dependiendo... */
+    
+}
+
+p, h1, h2, h3 {
+    color:var(--colorNormal);
 }
