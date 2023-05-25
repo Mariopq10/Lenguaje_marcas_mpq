@@ -236,6 +236,11 @@ img{
     font-size: 12px;
 }
 .ajustes{
+    display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
     width: fit-content;
 	height: max-content;
 	top: 30%;
