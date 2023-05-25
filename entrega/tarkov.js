@@ -73,7 +73,6 @@ if (colorGuardado) {
         elements.forEach(function(element) {
             element.style.color = colorGuardado;
         });
-
         // Aplicar el color al estilo CSS
         document.documentElement.style.setProperty('--colorNormal', colorGuardado);
     }
