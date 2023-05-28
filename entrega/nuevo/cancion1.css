@@ -19,3 +19,10 @@ p{
   
     content: "Verso-" counter(section) ": "; /* Display counter value in default style (decimal) */
   }
+h1{
+  color: #807155;
+}
+h2{
+  color: #807155
+  ;
+}
