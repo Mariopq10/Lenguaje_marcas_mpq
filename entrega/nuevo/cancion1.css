@@ -3,7 +3,7 @@
 }
 body {
     counter-reset: section estrofa;
-    background-color: rgba(174, 174, 174, 0.553);
+    background-color: rgba(31, 29, 29, 0.553);
   }
 
   h2::before {
