@@ -98,25 +98,31 @@
     <div id="myModal">
         <div class="modal-content">
             <img src="https://mariopq10.github.io/Lenguaje_marcas_mpq/meme/mondongo.webp" alt="Imagen Modal">
+            <audio id="myAudio">
+                <source src="ruta_del_archivo_audio.mp3" type="audio/mp3">
         </div>
     </div>
 
     <script>
         var modal = document.getElementById("myModal");
         var btn = document.getElementById("myBtn");
+        var audio = document.getElementById("myAudio");
         var span = document.getElementsByClassName("close")[0];
 
         btn.onclick = function () {
             modal.style.display = "block";
+            audio.play(); // Inicia la reproducción del audio al abrir el modal
         }
 
         span.onclick = function () {
             modal.style.display = "none";
+            audio.pause(); // Pausa la reproducción al cerrar el modal
         }
 
         window.onclick = function (event) {
             if (event.target == modal) {
                 modal.style.display = "none";
+                audio.pause(); // Pausa la reproducción al hacer clic fuera del modal
             }
         }
     </script>
